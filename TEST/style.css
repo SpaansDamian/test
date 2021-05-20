@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: WhiteSmoke;
+}
+
+.btn-toggle-nav {
+  width: 100px;
+  height: 100%;
+  font-size: 80px;
+  cursor: pointer;
+  text-align: center;
+}
+
+nav {
+  width: 400px;
+}
+
+nav ul {
+  visibility: hidden;
+}
+
+nav li {
+  list-style: none;
+  font-size: 1.5rem;
+  text-decoration: none;
+  display: block;
+  padding: 24px 16px;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+nav li:hover {
+  font-size: 1.75rem;
+}
+
+.home {
+  background-color: WhiteSmoke;
+  border: black 3px solid;
+}
+
+.red {
+  background-color: red;
+  border: black 3px solid;
+}
+
+.green {
+  background-color: green;
+  border: black 3px solid;
+}
+
+.blue {
+  background-color: blue;
+  border: black 3px solid;
+}
+
+.purple {
+  background-color: purple;
+  border: black 3px solid;
+}
